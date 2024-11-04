@@ -1,0 +1,22 @@
+{
+  "name": "sprint2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "lint": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talinsk/posmotri_v_okno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talinsk/posmotri_v_okno/issues"
+  },
+  "homepage": "https://github.com/talinsk/posmotri_v_okno#readme",
+  "dependencies": {
+    "stylelint": "^16.10.0"
+  }
+}
