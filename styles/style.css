@@ -55,7 +55,8 @@ ol {
 
 .search-form__submit-button {
   margin-top: auto;
-  padding: 6px 73.5px;
+  padding: 6px;
+  width: 194px;
 }
 
 .search-form__fieldset {
@@ -141,7 +142,8 @@ ol {
   font-weight: 700;
   line-height: 0.94;
   text-transform: uppercase;
-  padding-bottom: 26px;
+  padding-top: 5px;
+  padding-bottom: 21px;
 }
 
 .content__details{
@@ -159,7 +161,7 @@ ol {
 }
 
 .content__list-item {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .content__list li:last-child {
@@ -186,7 +188,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 200px;
 }
 
 .content__card-link {
