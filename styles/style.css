@@ -53,8 +53,9 @@ ol {
   justify-content: space-between;
 }
 
-.search-form .search-form__submit-button {
-  align-items: flex-end;
+.search-form__submit-button {
+  margin-top: auto;
+  padding: 6px 73.5px;
 }
 
 .search-form__fieldset {
@@ -80,7 +81,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .search-form__checkbox-list .search-form__label:hover {
@@ -143,6 +144,10 @@ ol {
   padding-bottom: 26px;
 }
 
+.content__details{
+  width: 420px;
+}
+
 .content__accent {
   color: #545050;
 }
@@ -157,8 +162,13 @@ ol {
   margin-bottom: 34px;
 }
 
+.content__list li:last-child {
+  display: flex;
+}
+
 .result__video-container {
   width: 710px;
+  height: 400px;
   padding-bottom: 16px;
   position: relative;
 }
@@ -192,6 +202,7 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 1px;
   margin: 2px;
 }
 
@@ -210,9 +221,10 @@ ol {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  /*overflow: hidden;
+  width: 200px;
+  overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis; для появления троеточия*/
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
@@ -246,8 +258,8 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 2px;
-  margin: 3px;
+  outline-offset: 1px;
+  margin: auto 2px 2px;
 }
 
 .button:hover {
@@ -258,10 +270,7 @@ ol {
   background-color: #545050;
 }
 
-.search-form__submit-button {
-  padding: 6px 73.5px;
-}
-
 .more-button {
-  padding: 6px 146.5px;
+  padding: 6px;
+  width: 100%;
 }
