@@ -56,7 +56,7 @@ ol {
 .search-form__submit-button {
   margin-top: auto;
   padding: 6px;
-  width: 194px;
+  min-width: 194px;
 }
 
 .search-form__fieldset {
