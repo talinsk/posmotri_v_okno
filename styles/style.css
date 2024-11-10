@@ -106,6 +106,7 @@ ol {
   border-bottom: 1px solid #fff;
   appearance: none;
   width: 225px;
+  color: #fff;
 }
 
 .search-form__textfield::placeholder {
@@ -179,7 +180,7 @@ ol {
 .result__video-container {
   width: 710px;
   height: 400px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -224,6 +225,10 @@ ol {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
+}
+
+.content__card-link:active {
+  text-decoration: none;
 }
 
 .content__video-card-title {
