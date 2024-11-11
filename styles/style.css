@@ -78,6 +78,7 @@ ol {
 .search-form__label {
   cursor: pointer;
   display: flex;
+  align-items: center;
 }
 
 .search-form__label:has(:focus-visible) {
