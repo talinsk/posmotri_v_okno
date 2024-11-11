@@ -168,6 +168,7 @@ ol {
   height: 300px;
   overflow-y: auto;
   position: relative;
+  width: max-content;
 }
 
 .content__list-item {
@@ -203,7 +204,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 178px;
+  width: 194px;
 }
 
 .content__card-link {
@@ -244,7 +245,7 @@ ol {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  width: 200px;
+  max-width: 200px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
